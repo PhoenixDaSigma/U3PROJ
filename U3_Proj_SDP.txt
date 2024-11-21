@@ -1,0 +1,11 @@
+1. The base case is when the code reaches the leaves. How long is takes to get there is probably just written into the code as a variable. The recursive case is creating two new children each time it hasn't reached the leaves, per branch that already exists.
+
+2. An integer that represents how many "cycles" it must go through to reach the base case, an angle to tilt the branches based on if it's the left or right branch, and a thickness for the line.
+
+3. Three achievable goals for Tier 1 are:
+
+		a) Get the branch to draw a left and right branch
+
+		b) Make sure those branches are attached to the base branch (I forgot how turtle works so this may or may not already be a thing)
+
+		c) Make it recursive, complete with base case
